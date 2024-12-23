@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.extra-side-bar{
+    margin-left: 21%;
+}
+
+.bg-color{
+    background-color: #F5F5F5;
+}
+
+.card-width{
+    width: 45%;
+}
+
+.remarks-card-width{
+    width: 92%;
+}
+
+.sales-card-width{
+    width:48%;
+}
+
+.profile-card {
+    margin-left: 15%;
+}
+
+.sidebar{
+    width: 19vw;
+    height: 100vh;
+    position: fixed;
+    padding-top: 6%;
+    top: 0;
+    left: 0;
+    box-shadow: 8px 10px 40px rgba(0,0,0,.5);
+    background: rgba(0,0,0,.295);
+    backdrop-filter: blur(5px);
+    border-left: 1px solid rgba(0,0,0,.2);
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.profile-container{
+    padding: 0 2rem;
+}
+
+.profile-inner-container{
+    padding: 1.5rem;
+}
+
+.invoice-container{
+    padding: 2rem;
+}
+
+.main-bar{
+    margin-left: 19%;
+}
+
+.user-card {
+    width: 75%;
+}
+
+.user-img{
+    width: 35%;
+    margin: 0 1rem;
+}
+
+.company-logo {
+    width: 40%;
+}
+
+a.active{
+    background-color: rgba(163, 182, 197,.5) !important;
+}
+
+div.month-export{
+    position: absolute; 
+    right: 3%;
+}
+
+/* Media query */
+@media only screen and (max-width: 720px) {
+    .main-bar, .extra-side-bar, .profile-card{
+        margin-left: 0;
+    }
+
+    .profile-container, .profile-inner-container{
+        padding: 1rem 0;
+    }
+
+    .invoice-container{
+        padding: 0 0.5rem;
+    }
+
+    .card-width, .remarks-card-width, .sales-card-width, .total-sales-card, 
+    .table-width, .user-card, .company-logo, .user-img{
+        width: 100%;
+    }
+
+    .user-img{
+        margin: 1rem 0;
+    }
+
+    .total-sales-card{
+        margin-bottom: .5rem;
+    }    
+
+    .sidebar{
+        display: none;
+    }
+
+    div.month-export{
+        position: relative; 
+        top: 4%;
+    }
+}

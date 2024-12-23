@@ -1,0 +1,28 @@
+[
+    {
+        "User" : {
+            "Role": {
+                "1" : "Owner",
+                "2" : "Auditor"
+            },
+            "Package" : {
+                "1" : "Basic",
+                "2" : "Standard",
+                "3" : "Pro",
+                "4" : "Premium"
+            },
+            "Status" : {
+                "1" : "Active",
+                "0" : "Inactive"
+            },
+            "Reg_by_yana" : {
+                "1" : "Yes",
+                "0" : "No"
+            },
+            "Has_Paid" : {
+                "1" : "Yes",
+                "0" : "No"
+            }
+        }  
+    }
+]
